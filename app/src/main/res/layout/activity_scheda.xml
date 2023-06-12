@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/CF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Cognome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="275dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Luogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="310dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="330dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="330dp"/>
+
+    <TextView
+        android:id="@+id/Genere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="294dp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>
